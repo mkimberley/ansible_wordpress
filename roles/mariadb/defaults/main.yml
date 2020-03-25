@@ -1,0 +1,4 @@
+mysql:
+  root_db_password: dbassword
+  hosts:
+    - "{{ ansible_hostname }}"
